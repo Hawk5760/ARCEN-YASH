@@ -1,0 +1,10 @@
+{
+  "name": "arcen-web-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ARCEN-WEB run dev",
+    "build": "npm --prefix ARCEN-WEB run build",
+    "preview": "npm --prefix ARCEN-WEB run preview",
+    "start": "npm --prefix ARCEN-WEB run dev"
+  }
+}
