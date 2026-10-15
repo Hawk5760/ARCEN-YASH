@@ -1,9 +1,12 @@
 {
   "name": "arcen-web-root",
   "private": true,
+  "workspaces": [
+    "ARCEN-WEB"
+  ],
   "scripts": {
     "dev": "npm --prefix ARCEN-WEB run dev",
-    "build": "npm --prefix ARCEN-WEB run build",
+    "build": "npm --prefix ARCEN-WEB install && npm --prefix ARCEN-WEB run build",
     "preview": "npm --prefix ARCEN-WEB run preview",
     "start": "npm --prefix ARCEN-WEB run dev"
   }
